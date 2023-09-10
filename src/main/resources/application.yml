@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Chapter01-SpringBoot
+  datasource:
+    url: jdbc:mysql://127.0.0.1:8081/sys?serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    separator: //
+  data:
+    redis:
+      port: 6379
+      host: 127.0.0.1
+server:
+  port: 9090
