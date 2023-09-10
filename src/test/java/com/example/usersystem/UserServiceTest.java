@@ -1,9 +1,9 @@
 package com.example.usersystem;
 
 import com.example.usersystem.entity.*;
-import com.example.usersystem.service.UserInfoRepository;
-import com.example.usersystem.service.UserSmsCodeRepository;
-import com.example.usersystem.service.impl.UserService;
+import com.example.usersystem.repository.UserInfoRepository;
+import com.example.usersystem.repository.UserSmsCodeRepository;
+import com.example.usersystem.service.UserService;
 import com.vonage.client.VonageClient;
 import com.vonage.client.application.Application;
 import com.vonage.client.sms.SmsSubmissionResponse;

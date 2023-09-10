@@ -2,7 +2,7 @@ package com.example.usersystem.controller;
 
 import com.example.usersystem.entity.*;
 import com.example.usersystem.entity.enums.ResultCode;
-import com.example.usersystem.service.impl.UserService;
+import com.example.usersystem.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

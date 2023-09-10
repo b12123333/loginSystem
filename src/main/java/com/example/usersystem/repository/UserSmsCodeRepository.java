@@ -1,4 +1,4 @@
-package com.example.usersystem.service;
+package com.example.usersystem.repository;
 
 import com.example.usersystem.entity.*;
 import org.springframework.stereotype.Repository;
